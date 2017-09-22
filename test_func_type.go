@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    _ "simonxianyu/golearn/mytest"
+)
+
 
 type Sfun func(a *int)
 
@@ -17,6 +21,5 @@ func main() {
     dd := Sfun(Test)
 
     dd(&num)
-
 
 }
